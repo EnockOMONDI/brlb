@@ -695,7 +695,7 @@ footer .social-icone ul li:nth-last-child(1) {
     background: linear-gradient(to right,  #039BE5 0%, #002140 100%);
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr=' #039BE5', endColorstr=' #039BE5', GradientType=1)
 }
-
+/* n */
 .iq-team .iq-team-img {
     position: relative
 }
