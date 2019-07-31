@@ -626,14 +626,15 @@ footer .social-icone ul li:nth-last-child(1) {
 
 .iq-team {
     position: relative;
-    overflow: hidden
+    /* overflow: hidden */
 }
 
 .iq-team .iq-team-info {
-    padding: 10px 20px;
+    padding: 5px 20px;
+    bottom: 0;
     background: 0 0;
     position: absolute;
-    bottom: -84px;
+    /* bottom: 4px; */
     background: #f2f2f2;
     left: 0;
     display: inline-block;
@@ -648,13 +649,13 @@ footer .social-icone ul li:nth-last-child(1) {
 
 .iq-team .iq-team-info span {
     font-family: josefin sans, sans-serif;
-    font-weight: 600
+    font-weight: 300
 }
 
 .iq-team .share {
     background: 0 0;
     position: absolute;
-    left: -65px;
+    /* left: -5px; */
     top: 12px;
     width: 40px;
     -webkit-transition: all .3s ease-out 0s;
@@ -673,15 +674,24 @@ footer .social-icone ul li:nth-last-child(1) {
 }
 
 .iq-team .share ul li a {
-    color: #fff;
+    
     width: 45px;
     height: 45px;
     line-height: 50px;
-    background: #fff;
-    color:  #039BE5;
+    
+   
     border-radius: 90px;
     text-align: center;
-    display: inline-block
+    display: inline-block;
+    color: #fff;
+    background:  #039BE5;
+    background: -moz-linear-gradient(left,  #039BE5 0%, #002140 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%,  #039BE5), color-stop(100%, #002140));
+    background: -webkit-linear-gradient(left,  #039BE5 0%, #002140 100%);
+    background: -o-linear-gradient(left,  #039BE5 0%, #002140 100%);
+    background: -ms-linear-gradient(left,  #039BE5 0%, #002140 100%);
+    background: linear-gradient(to right,  #039BE5 0%, #002140 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr=' #039BE5', endColorstr=' #039BE5', GradientType=1)
 }
 
 .iq-team .share ul li a:hover {
@@ -697,17 +707,19 @@ footer .social-icone ul li:nth-last-child(1) {
 }
 /* n */
 .iq-team .iq-team-img {
-    position: relative
+    position: relative;
+    
 }
 
 .iq-team .iq-team-img img {
-    width: 100%
+    width: 100%;
+ 
 }
 
 .iq-team .iq-team-img:before {
     content: "";
     bottom: 0;
-    opacity: 0;
+    opacity:0.3 ;
     left: 0;
     position: absolute;
     width: 100%;
