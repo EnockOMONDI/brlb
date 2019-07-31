@@ -471,7 +471,7 @@ header .navbar-toggler:not(:disabled):not(.disabled) {
 }
 
 .iq-clients .owl-carousel .owl-item img {
-    width: inherit;
+    width: 90px;
     display: inherit
 }
 
