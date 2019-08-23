@@ -199,7 +199,17 @@ hr {
 .white-bg {
     background: #fff
 }
-
+.main-bg2 {
+    background: #0D314B;
+    background: #0D314B;
+    background: -moz-linear-gradient(left,  #0D314B  0%, #0D314B   100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%,  #0D314B ), color-stop(100%, #0D314B  ));
+    background: -webkit-linear-gradient(left,  #0D314B  0%, #002140   100%);
+    background: -o-linear-gradient(left,  #0D314B  0%, #0D314B   100%);
+    background: -ms-linear-gradient(left,  #0D314B  0%, #0D314B   100%);
+    background: linear-gradient(to right,  #0D314B  0%, #0D314B   100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#0abde3', endColorstr='#0abde3', GradientType=1)
+}
 .main-bg {
     background: #039BE5;
     background: #039BE5;

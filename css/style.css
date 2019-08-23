@@ -1498,19 +1498,19 @@ footer .social-icone ul li:nth-last-child(1) {
 }
 
 .coming-height {
-    height: 800px;
+    height: 750px;
     vertical-align: middle
 }
 
 .iq-coming .big-text {
-    font-size: 60px;
+    font-size: 40px;
     text-transform: uppercase;
     color: #fff;
     line-height: 80px
 }
 
 .iq-coming img {
-    width: 140px
+    width: 440px
 }
 
 .iq-coming form .form-control {
